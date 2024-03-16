@@ -1,0 +1,85 @@
+/* home page  */
+
+.nav-link-item {
+  color: black !important ;
+  font-size: 18px !important ;
+  font-weight: 600 !important;
+  position: relative;
+  text-decoration: none; /* Remove default underline */
+  color: #6d1d8e; /* Set text color */
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-link-item::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #6d1d8e;
+  transition: width 0.3s ease-in-out; /* Transition the width property */
+}
+
+.nav-link-item:hover {
+  color: #6d1d8e !important; /* Change to your desired hover color */
+}
+
+.nav-link-item:hover::before {
+  width: 100%;
+}
+
+
+.homep1{
+  font-family: "Times New Roman", Times, serif;
+
+}
+.bestdata {
+  font-family: "Times New Roman", Times, serif;
+  color: #6d1d8e;
+  font-weight: 550;
+}
+.technolab {
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: 800;
+  color: #6d1d8e;
+}
+.homesmalldiv {
+  width: 400px;
+  font-weight: 500;
+}
+.homedivmain {
+  width: 100%;
+  background: #deccff;  
+  height: 80vh;
+}
+
+/* the course page  */
+
+ 
+.stackcenter{
+font-weight: 700;
+font-family: "Times New Roman", Times, serif;
+color: #6d1d8e;
+}
+.knowmore{
+display: flex;
+gap: 30px;
+}
+.toknowmore{
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: 900;
+  font-size: 20px ;
+  color: #3a0e4d;
+}
+.btn-courses{
+width: 100px;
+}
+.aboutheding{
+  font-family: "Times New Roman", Times, serif;
+font-weight: 800;
+color: #6d1d8e;
+}
+
+/* contact */
+
